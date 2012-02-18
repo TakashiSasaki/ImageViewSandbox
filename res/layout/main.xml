@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/alert_dark_frame" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello" />
+
+        <SurfaceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="600dp"
+            android:layout_height="200dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix=" />
+
+        <TextView
+            android:id="@+id/textViewMatrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageMatrix=" />
+
+        <TextView
+            android:id="@+id/textViewImageMatrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageMatrix " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleX=" />
+
+        <TextView
+            android:id="@+id/textViewScaleX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleX" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleY=" />
+
+        <TextView
+            android:id="@+id/textViewScaleY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleY" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleType=" />
+
+        <TextView
+            android:id="@+id/textViewScaleType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleType" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PivotX=" />
+
+        <TextView
+            android:id="@+id/textViewPivotX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PivotX" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PivotY=" />
+
+        <TextView
+            android:id="@+id/textViewPivotY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PivotY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Width=" />
+
+        <TextView
+            android:id="@+id/textViewWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Width" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height=" />
+
+        <TextView
+            android:id="@+id/textViewHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom=" />
+
+        <TextView
+            android:id="@+id/textViewBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left=" />
+
+        <TextView
+            android:id="@+id/textViewLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right=" />
+
+        <TextView
+            android:id="@+id/textViewRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top=" />
+
+        <TextView
+            android:id="@+id/textViewTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top" />
+    </LinearLayout>
+
+</LinearLayout>
